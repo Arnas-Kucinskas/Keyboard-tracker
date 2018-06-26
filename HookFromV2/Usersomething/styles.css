@@ -1,0 +1,17 @@
+body {
+    margin: auto;
+}
+
+
+div {
+   
+    margin-left: 20px;
+}
+li {
+	font-size: 18px;
+}
+
+a{
+	text-decoration: none;
+	color: mediumpurple;
+}

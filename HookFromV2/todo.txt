@@ -1,0 +1,62 @@
+﻿Continue
+	1. Calibration 
+		Calculate user level
+		Add user level to DB
+		Add comparison
+
+Heatmap dictionary
+	1. Read from file
+	2. Save on close
+	3. Save every X-seconds
+	4. Start only when typing starts
+
+Service/hooks
+	1. HotKey combinations (RegisterHooks, windows API)
+	2. Track delay only for certain ammount
+	3. Have X-ammount of typed keys in memmory
+
+
+User levels
+	1. _
+
+Rules
+	1. Back
+	2. Delete
+	3. Control+arrow keys
+	4. Arrow keys
+	5. Mouse repositioning
+	6. Mouse select
+	7. Delete more than one character
+	8. Shift+letters(capital letters)
+	9. CTRL+Delete
+	10. CTRL+Back
+
+Machine learning
+	1. Hand positioning(key delay)
+	2. Hand fatigue(?) optimizing keyboard layout
+	3. 
+
+Misc
+	1. Split Hotkeys from letters
+
+Shortcuts
+	1. Windows + letters = types
+	2. CTRL + letters = no
+	3. Alt + letters = no
+	4. Shift + letters = capital
+	5. Arrow + letters = types
+	6. Document + letters = types
+
+Triggers on canceling error check
+	1. CTRL+Up Arrow
+	2. CTRL+A
+	3. Up arrow
+	4. Home key
+	5. Page up
+	6. Enter
+	7. Shift+arrow keys
+
+Tracking mistakes
+	1. 1 delete 1 replace
+	2. many delete one replace(track up to space)
+	3. many delete many replace(track up to space)

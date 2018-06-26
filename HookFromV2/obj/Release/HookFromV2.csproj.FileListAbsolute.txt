@@ -1,0 +1,13 @@
+C:\Users\FrosTea\documents\visual studio 2017\Projects\HookFromV2\HookFromV2\bin\Release\Database.mdf
+C:\Users\FrosTea\documents\visual studio 2017\Projects\HookFromV2\HookFromV2\bin\Release\Database_log.ldf
+C:\Users\FrosTea\documents\visual studio 2017\Projects\HookFromV2\HookFromV2\bin\Release\HookFromV2.exe.config
+C:\Users\FrosTea\documents\visual studio 2017\Projects\HookFromV2\HookFromV2\bin\Release\HookFromV2.exe
+C:\Users\FrosTea\documents\visual studio 2017\Projects\HookFromV2\HookFromV2\bin\Release\HookFromV2.pdb
+C:\Users\FrosTea\documents\visual studio 2017\Projects\HookFromV2\HookFromV2\bin\Release\Newtonsoft.Json.dll
+C:\Users\FrosTea\documents\visual studio 2017\Projects\HookFromV2\HookFromV2\bin\Release\Newtonsoft.Json.xml
+C:\Users\FrosTea\documents\visual studio 2017\Projects\HookFromV2\HookFromV2\obj\Release\HookFromV2.csprojResolveAssemblyReference.cache
+C:\Users\FrosTea\documents\visual studio 2017\Projects\HookFromV2\HookFromV2\obj\Release\HookFromV2.Form1.resources
+C:\Users\FrosTea\documents\visual studio 2017\Projects\HookFromV2\HookFromV2\obj\Release\HookFromV2.Properties.Resources.resources
+C:\Users\FrosTea\documents\visual studio 2017\Projects\HookFromV2\HookFromV2\obj\Release\HookFromV2.csproj.GenerateResource.Cache
+C:\Users\FrosTea\documents\visual studio 2017\Projects\HookFromV2\HookFromV2\obj\Release\HookFromV2.exe
+C:\Users\FrosTea\documents\visual studio 2017\Projects\HookFromV2\HookFromV2\obj\Release\HookFromV2.pdb

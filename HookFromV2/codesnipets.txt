@@ -1,0 +1,67 @@
+﻿ public Dictionary<string, List<DictKeyValues>> ReadMistakes(string query)
+        {
+
+            Dictionary<string, List<DictKeyValues> > deleted_Dictionary = new Dictionary<string, List<DictKeyValues>>();
+            IOrderedDictionary ord = new OrderedDictionary();
+    
+            //List<DictKeyValues> test = new List<DictKeyValues>();
+            SqlCommand command = new SqlCommand(query, con);
+            int[] currenthighestNumbers = {0,0,0,0,0,0,0,0,0,0};
+            try
+            {
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    string deleted = reader["deleted"].ToString();
+                    string replaced = reader["replaced_with"].ToString();
+                    bool newItemAdded = true;
+
+                    if (deleted_Dictionary.ContainsKey(deleted))
+                    {
+                        foreach (var item in deleted_Dictionary[deleted])
+                        {
+                            if (item.Replaced_Value == replaced)
+                            {
+                                item.Replaced_Times++;
+                                newItemAdded = false;
+
+                                for (int i = 0; i < currenthighestNumbers.Length; i++)
+                                {
+                                    if (item.Replaced_Times > currenthighestNumbers[i])
+                                    {
+                                        //deleted_Dictionary.
+                                        break;
+                                    }
+                                }
+                                break;
+                            }
+                        }
+                        if (newItemAdded)
+                        {
+                            DictKeyValues val = new DictKeyValues(replaced);
+                            deleted_Dictionary[deleted].Add(val);
+                            //newItemAdded = true;
+                        }
+                       
+                    }
+                    else
+                    {
+                        List<DictKeyValues> list = new List<DictKeyValues>();
+                        DictKeyValues val = new DictKeyValues(replaced);
+                        list.Add(val);
+                        deleted_Dictionary.Add(deleted, list);
+                    }
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                //If an exception occurs, write it to the console
+                MessageBox.Show("Select all error");
+            }
+           // Sort dictionary for the sake of performance
+            return deleted_Dictionary;
+        }
+   

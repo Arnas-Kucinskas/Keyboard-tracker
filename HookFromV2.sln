@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HookFromV2", "HookFromV2\HookFromV2.csproj", "{597DE8DF-8AFB-4B6E-9B90-8EF545AF75E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z_Unit_tests", "Z_Unit_tests\Z_Unit_tests.csproj", "{8C65B824-DEEC-46F6-853B-2C303533F10F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{597DE8DF-8AFB-4B6E-9B90-8EF545AF75E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597DE8DF-8AFB-4B6E-9B90-8EF545AF75E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597DE8DF-8AFB-4B6E-9B90-8EF545AF75E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597DE8DF-8AFB-4B6E-9B90-8EF545AF75E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C65B824-DEEC-46F6-853B-2C303533F10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C65B824-DEEC-46F6-853B-2C303533F10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C65B824-DEEC-46F6-853B-2C303533F10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C65B824-DEEC-46F6-853B-2C303533F10F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
